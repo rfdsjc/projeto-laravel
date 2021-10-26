@@ -25,7 +25,6 @@ Route::prefix('/admin')->group(function(){
 
 });
 
-teste
 Route::get('/teste/{p1}/{p2}', [\App\Http\Controllers\TesteController::class,'teste'])->name('teste');
 
 //Route::redirect('/rota2', '/rota1', 301);
