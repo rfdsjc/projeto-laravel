@@ -22,6 +22,7 @@ Route::prefix('/admin')->group(function(){
     Route::get('/clientes', [\App\Http\Controllers\ClientesController::class,'clientes'])->name('admin.clientes');
     Route::get('/fornecedores', [\App\Http\Controllers\FornecedoresController::class,'fornecedores'])->name('admin.fornecedores');
     Route::get('/produtos', [\App\Http\Controllers\ProdutosController::class,'produtos'])->name('admin.produtos');
+    
 });
 
 
